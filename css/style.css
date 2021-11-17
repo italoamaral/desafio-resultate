@@ -1,0 +1,423 @@
+@charset "utf-8";
+        /*  INICIO DA PAG    */
+* {
+    margin: 0;
+    
+    
+}
+
+.logo {
+    height: 100px;
+    
+    }
+
+    h1     {
+        
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 8vh;
+        margin-right: 17px;
+    }
+
+nav {
+    display: flex;
+    align-items: center;
+    background: #1E1D22;
+    height: 8vh;
+
+    }
+
+    button {
+        color: white;
+        
+        border: none;
+        background: transparent;
+        
+        text-transform: uppercase;
+        font-size: 12px;
+      
+        padding: 16px;
+      
+        outline: none;
+      
+        position: relative;
+      }
+
+      .linha-vertical {
+        height: 45px;
+        border-right: 2px solid white;
+        margin-left: 103vh;
+        
+          
+      }
+      
+      
+    /* LINKS */
+    
+      .text1 {
+        font-size: 27px;
+        font-family: Arial, Helvetica, sans-serif;
+        letter-spacing: 8px;
+        margin-left: -35vh;
+    }
+    
+    .text2 {
+        font-size: 27px;
+        font-family: Arial, Helvetica, sans-serif;
+        letter-spacing: 8px;
+        margin-left: -10px;
+    }
+        /* CARROS */
+
+
+    .information {
+        margin-left: 30px;
+        font-family: Arial, Helvetica, sans-serif;
+        padding-top: 28px;
+        font-size: 27px;
+      }
+      .linha-vertical2 {
+        height: 90px;
+        border-right: 2px solid #9cc9e5;
+        display: inline-block;
+        margin-top: -100px;
+      margin-left: 160px;}
+
+      .information2 {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 24px;
+        margin-top: -85px;
+        margin-left: 180px;
+        line-height: 30px;
+      }
+
+      .bg-polo {
+        margin-left: 40vh;
+        margin-top: 20vh;
+      }
+      
+      .parent {
+        position: relative;
+        top: 0;
+        left: 0;
+        margin-top: 52px;
+        margin-left: 285px;
+      }
+    
+    .image1 {
+      position: relative;
+      top: -52px;
+      left: 14vh;
+      
+    }
+    .image2 {
+      position: absolute;
+      top: 30px;
+      left: 30px;
+     
+    }
+
+    .text-inform {
+        width: 25.83%;
+        position: relative;
+        height: 12vh;
+        background: #efeeee;
+        margin-top: 12vh;
+        margin-left: 420px;
+      }
+
+      .up {
+        margin-left: 30px;
+        font-family: Arial, Helvetica, sans-serif;
+        padding-top: 45px;
+        font-size: 27px;
+        margin-left: 10px;
+      }
+
+      .linha-vertical3 {
+        height: 90px;
+        border-right: 2px solid #9cc9e5;
+        display: inline-block;
+        margin-top: -58px;
+      margin-left: 160px;}
+
+      .information3 {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 24px;
+        margin-top: -85px;
+        margin-left: 180px;
+        line-height: 30px;
+      }
+
+      
+        /*  FORMULÁRIO   */
+
+      .container {
+       
+        width: 27%;
+        margin-top: -63vh;
+        margin-left: 115vh;
+        font-family: Arial, Helvetica, sans-serif;
+        position: relative;
+      }
+      
+      .contact input[type="text"],
+      .contact input[type="email"],
+      .contact input[type="tel"],
+      .contact input[type="url"],
+      .contact textarea,
+      .contact button[type="submit"] {
+        font: 400 12px/20px "Roboto", Helvetica, Arial, sans-serif;
+      }
+      
+      .contact {
+        
+        padding: 25px;
+        margin: 150px 0;
+      }
+      
+      .contact h3 {
+        display: block;
+        font-size: 25px; width: 100%;
+        
+        font-weight: 300;
+        margin-bottom: 10px;
+      }
+      
+      .contact h4 {
+        margin: 5px 0 15px;
+        display: block;
+        font-size: 13px;
+        font-weight: 400;
+        text-align: center;
+        font-size: 16px;
+      }
+      
+      fieldset {
+        border: medium none !important;
+        margin: 0 0 10px;
+        
+        padding: 0;
+        width: 100%;
+        
+      }
+      
+      .contact input[type="text"],
+      .contact input[type="email"],
+      .contact input[type="tel"],
+      .contact input[type="text"],
+      .contact textarea {
+        width: 95%;
+        border: 1px solid #ccc;
+        background: #FFF;
+        margin: 0 0 5px;
+        padding: 10px;
+        border-radius: 4px;
+        
+      }
+      
+      
+      
+      .contact textarea {
+        height: 100px;
+        max-width: 100%;
+        resize: none;
+        font-size: 15px;
+        font-style: italic;
+      }
+      
+      .contact button[type="submit"] {
+        cursor: pointer;
+        width: 100%;
+        border: none;
+        background: linear-gradient(to right, #6EC563, #60BE69, #4DB572, #3BAD7B, #2AA582);
+        color: #FFF;
+        margin: 0 0 5px;
+        padding: 10px;
+        font-size: 15px;
+        height: 60px;
+        border-radius: 9px;
+      }
+    
+      
+      .contact input:focus,
+      .contact textarea:focus {
+        outline: 0;
+        border: 1px solid #aaa;
+      }
+      
+      ::-webkit-input-placeholder {
+        color: #888;
+      }
+      
+      :-moz-placeholder {
+        color: #888;
+      }
+      
+      ::-moz-placeholder {
+        color: #888;
+      }
+      
+      :-ms-input-placeholder {
+        color: #888;
+      }
+
+      .italic {
+        font-style: italic;
+      }
+
+      input::placeholder {
+        font-style: italic;
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      
+      
+      
+      /*      FOOTER          */
+
+
+      .black {
+        display: flex;
+        
+    align-items: center;
+    background: #1E1D22;
+    height: 7vh;
+    margin-top: 0px;
+      }
+
+     .img-localizacao {
+       margin-left: 600px;
+     }
+
+     .localizacao {
+       font-size: 12px;
+       color: white;
+       font-family: Arial, Helvetica, sans-serif;
+       margin-left: 15px;
+       margin-bottom: 6px;
+     }
+     
+     .img-email {
+       margin-left: 50px;
+     }
+     
+     .img-tel {
+      margin-left: 50px;
+    }
+
+    .two-footer {
+        background: #fec80e  ;
+        height: 5vh;
+      }
+
+      .twwo-footer  {
+        font-size: 15px;
+        text-align: center;
+        color: white;
+        margin-left: 90px;
+        padding-top: 11px;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      button.active {
+        color: #fec80e;
+        transition: 1s;
+        
+        
+      }
+
+      button:hover {
+        cursor: pointer;
+      }
+      
+       /*             ANIMAÇÃO CARRO        */
+
+
+      .tab-content>section {
+        animation-name: slide;
+        animation-duration: 1s;
+      }
+      
+      @keyframes slide {
+        from {
+          opacity: 0;
+          transform: translateX(-15px);
+        }
+      
+        to {
+            transform: translateX(0);
+            opacity: 1;
+        }
+      }
+
+      .garantanow {
+          letter-spacing: 2px;
+      }
+
+      
+      
+      /* 1366X738 */
+
+      @media screen and (max-width:1366px) {
+        .linha-vertical {
+          height: 40px;
+          border-right: 2px solid white;
+          padding-left: 60px;
+          
+            
+        }
+        .text1 {
+          margin-left: -50vh;
+        }
+
+        .text-inform {
+          margin-left: 30vh;
+          height: 120px;
+          width: 78.7vh;
+          
+        }
+        .parent {
+          margin-top: 50px;
+          margin-left: 100px;
+
+        }
+        
+        .container {
+          margin-left: 135vh;
+          padding-top: -90px;
+        }
+
+        .image2  {
+          margin-left: -50px;
+        }
+
+        .contact h3 {
+          margin-left: -65px;
+          width: 470px;
+        }
+        .contact h4 {
+          margin-left: -50px;
+          width: 400px;
+        }
+        .container {
+       
+         
+          margin-top: -94vh;
+          margin-left: 135vh;
+          font-family: Arial, Helvetica, sans-serif;
+          position: relative;
+        }
+
+        .twwo-footer {
+          font-size: 12px;
+        }
+
+        .two-footer {
+          height: 30px;
+        }
+
+        .img-localizacao {
+          margin-left: 55vh;
+        }
+      }
